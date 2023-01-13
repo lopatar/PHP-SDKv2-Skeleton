@@ -8,7 +8,8 @@
         }
     },
     "require": {
-        "lopatar/php-sdkv2": "^2.3"
+        "lopatar/php-sdkv2": "^2.3",
+        "ext-openssl": "*"
     },
     "license": "WTFPL",
     "authors": [
