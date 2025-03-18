@@ -203,4 +203,12 @@ final class Config implements IConfig
 	{
 		return ['cost' => 13];
 	}
+    
+	/**
+     	* Default AES cipher to be used within the @see AES class, currently only AES-128/256-CBC is supported!!!!!
+     	*/
+	public function getDefaultAesCipher(): string
+	{
+		return 'AES-256-CBC';
+	}
 }
