@@ -212,8 +212,8 @@ final class Config implements IConfig
 		return 'AES-256-CBC';
 	}
 
-    public function getLoggingPath(): string
-    {
-        // TODO: Implement getLoggingPath() method.
-    }
+    	public function getLoggingPath(): string
+    	{
+        	return "Logs\\log.log";
+    	}
 }
