@@ -9,13 +9,13 @@ use Sdk\Http\Response;
 
 final class Home
 {
-	public static function render(Request $request, Response $response, array $args): Response
-	{
-		$username = $args['username'];
-		$model = new User($username);
+    public static function render(Request $request, Response $response, array $args): Response
+    {
+        $username = $args['username'];
+        $model = new User($username);
 
-		$response->createView('Home.php')
-			?->setProperty('user', $model);
-		return $response;
-	}
+        $response->createView('Home.php')
+            ?->setProperty('user', $model);
+        return $response;
+    }
 }

@@ -1,21 +1,21 @@
 {
-    "name": "lopatar/php-sdkv2-skeleton",
-    "description": "Skeleton project for the lopatar/php-sdkv2 package",
-    "type": "project",
-    "autoload":{
-        "psr-4": {
-            "App\\": "App/"
-        }
-    },
-    "require": {
-        "lopatar/php-sdkv2": "^v3.0",
-        "ext-openssl": "*"
-    },
-    "license": "WTFPL",
-    "authors": [
-        {
-            "name": "Jiří Lopatář",
-            "email": "jiri@lopatar.me"
-        }
-    ]
+  "name": "lopatar/php-sdkv2-skeleton",
+  "description": "Skeleton project for the lopatar/php-sdkv2 package",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  },
+  "require": {
+    "lopatar/php-sdkv2": "^v3.1.2",
+    "ext-openssl": "*"
+  },
+  "license": "WTFPL",
+  "authors": [
+    {
+      "name": "Jiří Lopatář",
+      "email": "jiri@lopatar.me"
+    }
+  ]
 }

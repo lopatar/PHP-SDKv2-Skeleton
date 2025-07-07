@@ -5,5 +5,7 @@ namespace App\Models;
 
 final class User
 {
-	public function __construct(public readonly string $username) {}
+    public function __construct(public readonly string $username)
+    {
+    }
 }
