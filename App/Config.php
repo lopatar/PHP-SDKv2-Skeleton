@@ -212,8 +212,8 @@ final class Config implements IConfig
 		return 'AES-256-CBC';
 	}
 
-    	public function getLoggingPath(): string
-    	{
-    	    	return __DIR__ . '/../Logs/logs.txt';
-    	}
+    public function getLoggingPath(): string
+    {
+        return __DIR__ . '/../Logs/logs.txt';
+    }
 }
