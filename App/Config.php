@@ -214,6 +214,6 @@ final class Config implements IConfig
 
     public function getLoggingPath(): string
     {
-        return __DIR__ . '/../Logs/logs.txt';
+        return __DIR__ . '/../Logs/Logs.txt';
     }
 }
