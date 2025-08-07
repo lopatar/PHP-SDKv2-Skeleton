@@ -8,7 +8,12 @@ use Sdk\IConfig;
 
 final class Config implements IConfig
 {
-	/**
+    public function getAppName(): string
+    {
+        return "App";
+    }
+
+    /**
 	 * If false, we output {@see Exception::$message} thrown in {@see Route::execute()} to {@see Response::$text}
 	 * Recommended value is false
 	 */
